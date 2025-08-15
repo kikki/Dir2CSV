@@ -1,0 +1,63 @@
+# === Python / uv project ===
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+.wheels/
+*.egg-info/
+*.egg
+MANIFEST
+
+# uv cache
+.uv/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+# Legacy/accidental venv folder found in project
+list/
+
+# Installer / PyInstaller
+*.spec
+# If you want to keep your spec, comment the line above out and track the file explicitly.
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Type checker caches
+.mypy_cache/
+.pyre/
+.pytype/
+.dmypy.json
+dmypy.json
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDE / Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+*.tmp
+*.temp

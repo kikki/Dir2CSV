@@ -1,0 +1,16 @@
+[project]
+name = "DIR2CSV"
+version = "1.0.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pdfminer-six>=20250506",
+    "pypdf2>=3.0.1",
+    "python-docx>=1.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+]
