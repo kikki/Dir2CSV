@@ -6,8 +6,8 @@ from typing import List, Dict, Optional
 import threading
 from typing import Iterable, Sequence
 
-TO_Scan_Ordner = "C:/Users/nrube/Documents/XX_Programmieren/Python/datei-scanner"  # (kept for compatibility; not used directly)
-CSV_AUSGABE_DATEI = "C:/Users/nrube/Documents/XX_Programmieren/Python/datei-scanner/dist/scanresult.csv"
+TO_Scan_Ordner = ""  # (kept for compatibility; not used directly)
+CSV_AUSGABE_DATEI = "scanresult.csv"
 
 # === Optional imports for PDF/DOCX text extraction ===
 try:
@@ -50,7 +50,6 @@ class FileScanner:
             '.yaml', '.yml', '.html', '.htm', '.csv', '.tsv', '.rst',
             '.asc', '.ascx', '.xaml', '.css', '.scss', '.less', '.sql',
             '.php', '.rb', '.java',
-            # NEW:
             '.pdf', '.docx'
         }
 
@@ -60,7 +59,6 @@ class FileScanner:
             '.txt', '.log', '.cfg', '.conf', '.ini', '.properties', '.yaml', '.yml',
             '.html', '.htm', '.csv', '.tsv', '.rst', '.asc', '.ascx', '.xaml',
             '.css', '.scss', '.less', '.sql', '.php', '.rb', '.java',
-            # NEW:
             '.pdf', '.docx'
         }
 
